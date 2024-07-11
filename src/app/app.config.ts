@@ -6,10 +6,12 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideDynamicHooks({
-      parsers: [{
-        component: ExampleComponent,
-        selector: ".myWidget"
-      }],
+      parsers: [
+        {
+          component: ExampleComponent,
+          selector: ".myWidget"
+        }
+      ],
     })
   ]
 };

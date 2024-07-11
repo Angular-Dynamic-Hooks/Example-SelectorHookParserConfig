@@ -9,5 +9,5 @@ import { DynamicHooksComponent } from 'ngx-dynamic-hooks';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  content = 'Load a component here: <app-example></app-example>';
+  content = 'Load a component here: <div class="myWidget"></div>';
 }
