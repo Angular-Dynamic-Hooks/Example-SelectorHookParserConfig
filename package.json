@@ -1,5 +1,5 @@
 {
-  "name": "general-config",
+  "name": "ngx-dynamic-hooks-example-selectorhookparserconfig",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
